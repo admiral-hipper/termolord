@@ -1,0 +1,129 @@
+*,html{
+    text-decoration: none;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url("../image/fon-oboi-makro-zima-led-uzor.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.header{
+    background-color: white;
+}
+.logo img{
+    width: 50px;
+    height:50px;
+}
+body .navbar-expand-lg .navbar-brand{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+}
+body .navbar-expand-lg .navbar-nav .navbar-item .nav-link{
+color:black;
+position: relative;
+}
+body .navbar-expand-lg .navbar-brand:hover{
+    color: rgb(255, 208, 0);
+    transition: all .3s ease 0s;
+}
+body .navbar-expand-lg .navbar-nav .navbar-item .nav-link:after{
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    bottom: 0;
+    left:0;
+    width: 0%;
+    height:0%;
+    opacity: 0;
+    border-bottom:1px solid orange;
+}
+body .navbar-expand-lg .navbar-nav .navbar-item .nav-link:hover:after{
+    width: 100%;
+    opacity: 1;
+    height: 100%;
+    transition: .5s ease width 0s, 0s ease opacity 0s, 0s ease height 0s;
+}
+body .article{
+    background: rgba(248, 248, 248, 0.9);
+    font-size: 1em;                                           /*FONT SIZE OF ARTICLE*/
+}
+.contact-icon{
+    width: 60px;
+}
+body .footer{
+    background-color: black;
+    width:100%;
+}
+.contact-icon{
+    width:30%;
+}
+#instagram-icon{
+    width:20%;
+    margin-left: .6em;
+}
+body .footer .navbar-brand{
+    font-size: 1em;
+}
+body .footer .navbar-nav .navbar-item .nav-link{
+    color: white;
+}
+.contact .col-12{
+text-decoration: none;
+}
+.contact-text{
+    font-size: .7em;
+    text-decoration: none;
+    color: tomato;
+}
+a:hover{
+    text-decoration: none;
+}
+#instagram-text{
+    font-size: .7em;
+    margin-left: 1em;
+}
+.contact-text:hover{
+
+color:blue;
+transition: all .5s ease 0s;
+}
+
+@media (min-width:350px){
+.contact-icon{
+    width:70px;
+}
+#instagram-icon{
+    width:50px;
+    margin-left: .5em;
+}
+
+body .contact{
+    width:90%;
+    background:linear-gradient(to top,dodgerblue,white 20%);
+}
+    body .article{
+        width:90%;
+        font-size: 1.2em;
+        font-family: Comic Sans MS,sans-serif;   
+    }
+    .contact a .phone svg{
+        width: 2em;
+        height: 2em;
+        margin-left: .7em;
+    }
+}
+@media (min-width:700px){
+   body .contact{
+        width:75%;
+    }
+}
+@media (min-width:450px){
+    .contact-text{
+        font-size: 1.5em;
+    }
+    #instagram-text{
+        font-size: 1.5em;
+    }
+}
