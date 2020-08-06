@@ -73,7 +73,7 @@ body .footer .navbar-nav .navbar-item .nav-link{
 text-decoration: none;
 }
 .contact-text{
-    font-size: .7em;
+    font-size: .9em;
     text-decoration: none;
     color: tomato;
 }
@@ -81,7 +81,7 @@ a:hover{
     text-decoration: none;
 }
 #instagram-text{
-    font-size: .7em;
+    font-size: .9em;
     margin-left: 1em;
 }
 .contact-text:hover{
@@ -101,12 +101,12 @@ transition: all .5s ease 0s;
 
 body .contact{
     width:90%;
-    background:linear-gradient(to top,dodgerblue,white 20%);
+    background:linear-gradient(to top,dodgerblue,white 10%);
 }
     body .article{
         width:90%;
         font-size: 1.2em;
-        font-family: Comic Sans MS,sans-serif;   
+        font-family: Comic Neue, cursive;   
     }
     .contact a .phone svg{
         width: 2em;
