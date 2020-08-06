@@ -73,7 +73,7 @@ body .footer .navbar-nav .navbar-item .nav-link{
 text-decoration: none;
 }
 .contact-text{
-    font-size: .7em;
+    font-size: .9em;
     text-decoration: none;
     color: tomato;
 }
@@ -81,7 +81,7 @@ a:hover{
     text-decoration: none;
 }
 #instagram-text{
-    font-size: .7em;
+    font-size: .9em;
     margin-left: 1em;
 }
 .contact-text:hover{
